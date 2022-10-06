@@ -1,0 +1,42 @@
+<header>
+        <ul>
+            <li><a href="">Personal-Info</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href=""> Recent Projects</a></li>
+        </ul>
+    </header>
+    <main>
+        <p class="pers">
+            <h2>Personal Info</h2><br>
+            <!-- <img src="me.jpg" alt="me"> -->
+            
+            Name:Mohamed Faseh Abdel'al<br>
+            <br>
+            Age:21 years<br>
+            <br>
+            Marital Status:Single<br>
+            <br>
+            Job:Student<br>
+            <br>
+            Junior Mechanical Engineering Student At Cairo University
+            
+        </p>
+
+
+
+
+
+
+header ul{display: flex;
+    list-style-type: none;}
+header li{margin:20px ;
+    padding: 20px;
+    margin-left:120px ;}
+a{text-decoration: none;
+     font-size: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(116, 114, 114);}
+     a:hover  {color: rgb(13, 188, 188);}
+     main{width: 85%;margin: auto;}
+     .pers{background-color: #38c0c4;height:80px ;font-size: 30px;text-align: justify;padding: 30px;color: aliceblue;}
+     img{height:200px  ;width: 200px;float: right;margin-right:100px ;border:10px solid white ;}
